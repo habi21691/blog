@@ -4,6 +4,7 @@ export const callouts = [
       name: "Desk and Office",
       description: "Work from home accessories",
       catagory: "news",
+      subCategory: "habtemasdasdgdfgdfsgdsfg",
       createAt: "Niamo",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
@@ -13,6 +14,7 @@ export const callouts = [
     },
     {
       id: 2,
+      subCategory: "habtemasdasdgdfgdfsgdsfg",
       catagory:'improvement',
       name: "Self-Improvement",
       createAt : 'Habtemariam',
@@ -25,6 +27,7 @@ export const callouts = [
     },
     {
       id: 3,
+      subCategory: "habtemasdasdgdfgdfsgdsfg",
       catagory:'Travel',
       createAt: 'Amen',
       name: "Travel",

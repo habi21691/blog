@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import bg from "../assets/bg.jpg";
 import Modal from "./modal";
 // import { callouts } from "../data/collouts";
@@ -35,7 +35,11 @@ function Card(props) {
                 <p className="text-base font-semibold text-gray-900">
                   {callout.description}
                 </p>
-                <button
+                <Link className="" to={`/blog/${callout.id}`}>
+                 -->
+                </Link>
+
+                {/* <button
                 type="button"
                   className="bg-sky-900 text-slate-50 p-2 mx-20 rounded-lg"
                   // open={open}
@@ -43,7 +47,7 @@ function Card(props) {
                   onClick={ () => {setOpen(true), console.log(callout.id)}}
                 >
                   See More ->
-                </button>
+                </button> */}
               </div>
             ))}
           </div>
