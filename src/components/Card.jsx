@@ -6,7 +6,7 @@ import Modal from "./modal";
 
 function Card(props) {
   const [open, setOpen] = useState(false);
-   console.log(props.blogs)
+  //  console.log(props.blogs)
  const navigator = useNavigate()
   return (
     <div className=" w-full bg-gray-100  ">
