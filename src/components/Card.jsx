@@ -36,7 +36,7 @@ function Card(props) {
                   {callout.description}
                 </p>
                 <Link className="" to={`/blog/${callout.id}`}>
-                 -->
+                 Read More
                 </Link>
 
                 {/* <button

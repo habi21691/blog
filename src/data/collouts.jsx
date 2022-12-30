@@ -2,9 +2,9 @@ export const callouts = [
     {
       id:1,
       name: "Desk and Office",
-      description: "Work from home accessories dgsdgdfgdsfgdsfgsdfgdsfgsdfgdgsdggsdgf",
+      description: "Work from home accessories, With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
       catagory: "news",
-      subCategory: "habtemasdasdgdfgdfsgdsfg",
+      subCategory: "With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
       createAt: "Niamo",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
@@ -18,11 +18,13 @@ export const callouts = [
     },
     {
       id: 2,
-      subCategory: "habtemasdasdgdfgdfsgdsfg",
+      description: "Work from home accessories, With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
+      subCategory: "With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
       catagory:'improvement',
+
       name: "Self-Improvement",
       createAt : 'Habtemariam',
-      description: "Journals and note-taking",
+      // description: "Journals and note-taking",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
         imageSrc2:
@@ -35,11 +37,13 @@ export const callouts = [
     },
     {
       id: 3,
-      subCategory: "habtemasdasdgdfgdfsgdsfg",
+      subCategory: "With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
       catagory:'Travel',
+      description: "Work from home accessories, With input from leading organisations, we designed the core units on this course to give you a thorough introduction to managing a tourism business. You can also choose to learn a new language such as Spanish, Modern Arabic or Japanese",
+
       createAt: 'Amen',
       name: "Travel",
-      description: "Daily commute essentials",
+      // description: "Daily commute essentials",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
         imageSrc2:
