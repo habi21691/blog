@@ -1,8 +1,8 @@
-import React,{ useState } from "react";
+import React,{ useEffect, useState } from "react";
 import Navbar from "../components/navbar";
 import bg from "../assets/bg.jpg";
 import Card from "../components/Card";
-import Footer from "../components/footer";
+import Footer from "../components/Footer/footer";
 import Modal from "../components/modal";
 import Searchbar from "../components/Searchbar";
 import { callouts } from "../data/collouts";
@@ -11,6 +11,10 @@ function Home() {
 
    const [blog, setBlogs ] = useState(callouts)
    const [ searchKey, setSearchKey ] = useState('')
+
+   //select by catagories
+  //  const [sportList, setSportList ] = useState([])
+  //  const [ catagories, setCatagories] = useState()
    // Search Submit
    const handleSearchbar = e => {
     e.preventDefault();
@@ -28,6 +32,16 @@ function Home() {
           setSearchKey('')
         }
 
+    // useEffect( () => {
+    //   const data = callouts;
+    //   // const fetch = data.filter((blog2) => blog2.catagory.toLoweCase().include(searchKey.toLowerCase().trim()) )
+    //   setBlogs(data)
+    // })
+
+    const handleCatagoriesChange = (event) => {
+      setCatagories(event.target.value)
+    }
+
   return (
     <div>
       <Navbar />
@@ -40,7 +54,9 @@ function Home() {
           ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
           nostrum tempore.
         </p>
+
         <Searchbar
+
         value={searchKey} 
         clearSearch={handleClearSearch}
         formSubmit={handleSearchbar}

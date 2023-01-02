@@ -1,20 +1,26 @@
 import React from "react";
 
 function Searchbar(props) {
+  
+  // const [ catagories, setCatagories ] = useState()
+ 
   return (
     <form onSubmit={props.formSubmit}>
       <div className="container flex flex-column justify-center  ">
-        {/* <div className=" text-center">
-          <select className=" h-12 w-32 border-purpl-700 bg-zinc-900 text-pink-50 px-3">
-            <option disabled selected>
-              Catagories
+        <div className=" text-center">
+          <select 
+          className=" h-12 w-32 border-purpl-700 bg-zinc-900 text-pink-50 px-3"
+           value={props.value}
+           onChange= {props.handleSearchKey}>
+            <option  values="all"selected>
+              All
             </option>
-            <option value="1">News</option>
-            <option value="1">Sport</option>
-            <option value="1">Movies</option>
-            <option value="1">Touriusm</option>
+            <option value="news" >News</option>
+            <option value="sport">Sport</option>
+            <option value="movies">Movies</option>
+            <option value="tourism">Touriusm</option>
           </select>
-        </div> */}
+        </div>
         <div>
           <input
             className="h-12 w-80 border border-sky-500v placeholder-slate-400 text-lg shadow-sm focus:outline-none focus-border-sky-500 focus:ring-1 focus:ring-sky-500 px-3 "
